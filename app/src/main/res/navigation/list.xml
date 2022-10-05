@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2019, The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list"
+    app:startDestination="@+id/testlist">
+
+    <fragment
+            android:id="@+id/testlist"
+            android:name="com.tenqube.sample.syrup.main.TestListFragment"
+            android:label="@string/test_list"
+            tools:layout="@layout/fragment_test_list">
+
+        <action
+            android:id="@+id/action_parse"
+            app:destination="@id/parse"/>
+
+        <action
+            android:id="@+id/action_parseBulk"
+            app:destination="@id/parseBulk"/>
+
+        <action
+            android:id="@+id/action_queryReceipt"
+            app:destination="@id/queryReceipt"/>
+
+        <action
+            android:id="@+id/action_startVisual"
+            app:destination="@id/startVisual"/>
+
+
+        <action
+            android:id="@+id/action_startRcs"
+            app:destination="@id/startRcs"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/parse"
+        android:name="com.tenqube.sample.syrup.parser.SingleParseFragment"
+        android:label="@string/parse"/>
+
+    <fragment
+        android:id="@+id/parseBulk"
+        android:name="com.tenqube.sample.syrup.parser.BulkParseFragment"
+        android:label="@string/bulk_parse"/>
+
+    <fragment
+        android:id="@+id/queryReceipt"
+        android:name="com.tenqube.sample.syrup.themereport.ThemeReportFragment"
+        android:label="@string/query_receipt"/>
+
+    <fragment
+        android:id="@+id/startVisual"
+        android:name="com.tenqube.sample.syrup.visual.VisualWebFragment"
+        android:label="@string/start_visual"/>
+
+    <fragment
+        android:id="@+id/startRcs"
+        android:name="com.tenqube.sample.syrup.rcs.RcsFragment"
+        android:label="@string/start_rcs"/>
+
+</navigation>

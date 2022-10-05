@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Visual</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_commerce">CommerceActivity</string>
+    <string name="hello_home_second">Hello HomeSecondFragment. Arg: %1$s</string>
+    <string name="hello_dashboard_second">Hello DashboardSecondFragment. Arg: %1$s</string>
+    <string name="hello_notifications_second">Hello NotificationsSecondFragment. Arg: %1$s</string>
+    <string name="title_commerce">Commerce</string>
+    <string name="title_diary">Diary</string>
+    <string name="title_account">Account</string>
+
+    <string name="home_second">Home Second</string>
+
+</resources>

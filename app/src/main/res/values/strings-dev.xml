@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="test_list">testList</string>
+    <string name="parse">파서 테스트</string>
+    <string name="bulk_parse">벌크 파서 테스트</string>
+
+    <string name="query_receipt">보고서 정보 조회</string>
+    <string name="start_visual">비주얼 테마 리포트</string>
+    <string name="start_rcs">RCS</string>
+
+</resources>

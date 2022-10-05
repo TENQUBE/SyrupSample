@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tenqube.sample.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="Visual SDK Test"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/bt_theme_report"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test ThemeReport"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45" />
+
+    <Button
+        android:id="@+id/bt_commerce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test Commerce"
+        app:layout_constraintTop_toBottomOf="@id/bt_theme_report"
+        app:layout_constraintBottom_toTopOf="@id/bt_visual"
+        app:layout_constraintEnd_toEndOf="@id/bt_theme_report"
+        app:layout_constraintStart_toStartOf="@id/bt_theme_report"
+
+        app:layout_constraintVertical_bias="0.45" />
+
+    <Button
+        android:id="@+id/bt_visual"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Test Visual"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/bt_theme_report"
+        app:layout_constraintStart_toStartOf="@id/bt_theme_report"
+        app:layout_constraintTop_toTopOf="@id/bt_theme_report"
+        app:layout_constraintVertical_bias="0.55" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

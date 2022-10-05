@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/result_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="파싱 결과"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/result"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:padding="16dp"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toTopOf="@+id/container"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/result">
+
+            <TextView
+                android:id="@+id/msg_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="메세지 "
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/msg"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="[Web발신] [수협알림] 오청*님 계좌 [220143020***] 30,000,000원 신규개설축하드립니다."
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/msg_text" />
+
+            <TextView
+                android:id="@+id/sender_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="전화번호"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/msg" />
+
+
+            <EditText
+                android:id="@+id/sender"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="15881515"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/sender_text" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <Button
+            android:id="@+id/parse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="단건파싱"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toEndOf="@id/sync"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.85" />
+
+        <Button
+            android:id="@+id/sync"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="파싱룰 동기화"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/parse"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.85" />
+
+        <Button
+            android:id="@+id/add_test_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="전화번호 추가"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@id/sync"
+            app:layout_constraintTop_toBottomOf="@id/sync" />
+
+        <Button
+            android:id="@+id/sync_key"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="키동기화"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@id/parse"
+            app:layout_constraintTop_toBottomOf="@id/parse" />
+
+
+        <Button
+            android:id="@+id/init"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="초기화"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toTopOf="@+id/sync"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintStart_toStartOf="@id/sync"/>
+
+        <Button
+            android:id="@+id/get_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="버전 조회"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toTopOf="@+id/parse"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintStart_toStartOf="@id/parse"/>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,94 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'androidx.navigation.safeargs'
+
+
+android {
+    compileSdkVersion 31
+
+    defaultConfig {
+        minSdkVersion 24
+        targetSdkVersion 31
+        versionCode 2
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles 'consumer-rules.pro'
+    }
+
+    buildTypes {
+
+        debug {
+
+            buildConfigField "String", "SCRAPER_KEY", '"Nrcoz4wo1Z8mvEuyZzcFt3QUu3cCKpjC4TtijITZ"'
+            buildConfigField "String", "SCRAPER_LAYER", '"prod"'
+
+
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+
+        }
+        release {
+
+
+            buildConfigField "String", "SCRAPER_KEY", '"Nrcoz4wo1Z8mvEuyZzcFt3QUu3cCKpjC4TtijITZ"'
+            buildConfigField "String", "SCRAPER_LAYER", '"prod"'
+
+            minifyEnabled true
+
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    dataBinding {
+        enabled = true
+    }
+}
+
+dependencies {
+    implementation 'com.tenqube:visual-theme:0.6.2'
+    implementation 'net.sourceforge.jexcelapi:jxl:2.6.12'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'androidx.browser:browser:1.0.0'
+    implementation 'androidx.vectordrawable:vectordrawable-animated:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation "com.jakewharton.timber:timber:4.7.1"
+    implementation 'androidx.core:core-ktx:1.0.0'
+    implementation 'androidx.core:core:1.0.0'
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    // live
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.2.0'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0'
+
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.0.0-rc02'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.0.0-rc02'
+    implementation 'androidx.navigation:navigation-fragment:2.0.0-rc02'
+    implementation 'androidx.navigation:navigation-ui:2.0.0-rc02'
+    // Kotlin
+    // Kotlin + coroutines
+//    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.71"
+//    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.2.1"
+//    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.2.1"
+
+    //Timber
+    implementation "com.jakewharton.timber:timber:4.7.1"
+
+    //Jsoup
+    implementation 'org.jsoup:jsoup:1.11.3'
+}

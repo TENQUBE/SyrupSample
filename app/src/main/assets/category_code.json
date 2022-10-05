@@ -1,0 +1,1426 @@
+{
+  "data": [
+    {
+      "category_code": 101010
+    },
+    {
+      "category_code": 101110
+    },
+    {
+      "category_code": 101210
+    },
+    {
+      "category_code": 101310
+    },
+    {
+      "category_code": 111010
+    },
+    {
+      "category_code": 221010
+    },
+    {
+      "category_code": 221110
+    },
+    {
+      "category_code": 221111
+    },
+    {
+      "category_code": 221112
+    },
+    {
+      "category_code": 221113
+    },
+    {
+      "category_code": 221114
+    },
+    {
+      "category_code": 221115
+    },
+    {
+      "category_code": 221116
+    },
+    {
+      "category_code": 221117
+    },
+    {
+      "category_code": 221118
+    },
+    {
+      "category_code": 221119
+    },
+    {
+      "category_code": 221120
+    },
+    {
+      "category_code": 221121
+    },
+    {
+      "category_code": 221122
+    },
+    {
+      "category_code": 221123
+    },
+    {
+      "category_code": 221124
+    },
+    {
+      "category_code": 221125
+    },
+    {
+      "category_code": 221126
+    },
+    {
+      "category_code": 221127
+    },
+    {
+      "category_code": 221129
+    },
+    {
+      "category_code": 221130
+    },
+    {
+      "category_code": 221131
+    },
+    {
+      "category_code": 221132
+    },
+    {
+      "category_code": 221133
+    },
+    {
+      "category_code": 221134
+    },
+    {
+      "category_code": 221135
+    },
+    {
+      "category_code": 221136
+    },
+    {
+      "category_code": 221137
+    },
+    {
+      "category_code": 221138
+    },
+    {
+      "category_code": 221139
+    },
+    {
+      "category_code": 221140
+    },
+    {
+      "category_code": 221141
+    },
+    {
+      "category_code": 221142
+    },
+    {
+      "category_code": 221143
+    },
+    {
+      "category_code": 221144
+    },
+    {
+      "category_code": 221145
+    },
+    {
+      "category_code": 221146
+    },
+    {
+      "category_code": 221147
+    },
+    {
+      "category_code": 221148
+    },
+    {
+      "category_code": 221149
+    },
+    {
+      "category_code": 221150
+    },
+    {
+      "category_code": 221151
+    },
+    {
+      "category_code": 221152
+    },
+    {
+      "category_code": 221153
+    },
+    {
+      "category_code": 221154
+    },
+    {
+      "category_code": 221155
+    },
+    {
+      "category_code": 221156
+    },
+    {
+      "category_code": 221157
+    },
+    {
+      "category_code": 221158
+    },
+    {
+      "category_code": 221159
+    },
+    {
+      "category_code": 221160
+    },
+    {
+      "category_code": 221161
+    },
+    {
+      "category_code": 221162
+    },
+    {
+      "category_code": 221210
+    },
+    {
+      "category_code": 221211
+    },
+    {
+      "category_code": 221310
+    },
+    {
+      "category_code": 221410
+    },
+    {
+      "category_code": 221411
+    },
+    {
+      "category_code": 221510
+    },
+    {
+      "category_code": 221610
+    },
+    {
+      "category_code": 221611
+    },
+    {
+      "category_code": 221612
+    },
+    {
+      "category_code": 221613
+    },
+    {
+      "category_code": 221615
+    },
+    {
+      "category_code": 221616
+    },
+    {
+      "category_code": 221617
+    },
+    {
+      "category_code": 221618
+    },
+    {
+      "category_code": 221619
+    },
+    {
+      "category_code": 221620
+    },
+    {
+      "category_code": 221621
+    },
+    {
+      "category_code": 221623
+    },
+    {
+      "category_code": 221710
+    },
+    {
+      "category_code": 221712
+    },
+    {
+      "category_code": 221810
+    },
+    {
+      "category_code": 221811
+    },
+    {
+      "category_code": 221812
+    },
+    {
+      "category_code": 221813
+    },
+    {
+      "category_code": 221815
+    },
+    {
+      "category_code": 221816
+    },
+    {
+      "category_code": 221817
+    },
+    {
+      "category_code": 221819
+    },
+    {
+      "category_code": 221820
+    },
+    {
+      "category_code": 221821
+    },
+    {
+      "category_code": 221822
+    },
+    {
+      "category_code": 221910
+    },
+    {
+      "category_code": 221911
+    },
+    {
+      "category_code": 221913
+    },
+    {
+      "category_code": 221914
+    },
+    {
+      "category_code": 222010
+    },
+    {
+      "category_code": 222011
+    },
+    {
+      "category_code": 222012
+    },
+    {
+      "category_code": 222013
+    },
+    {
+      "category_code": 222014
+    },
+    {
+      "category_code": 222016
+    },
+    {
+      "category_code": 222110
+    },
+    {
+      "category_code": 222112
+    },
+    {
+      "category_code": 222113
+    },
+    {
+      "category_code": 222114
+    },
+    {
+      "category_code": 222210
+    },
+    {
+      "category_code": 222211
+    },
+    {
+      "category_code": 222213
+    },
+    {
+      "category_code": 222214
+    },
+    {
+      "category_code": 222215
+    },
+    {
+      "category_code": 222216
+    },
+    {
+      "category_code": 222217
+    },
+    {
+      "category_code": 222218
+    },
+    {
+      "category_code": 222219
+    },
+    {
+      "category_code": 222410
+    },
+    {
+      "category_code": 223110
+    },
+    {
+      "category_code": 241010
+    },
+    {
+      "category_code": 241110
+    },
+    {
+      "category_code": 241111
+    },
+    {
+      "category_code": 241112
+    },
+    {
+      "category_code": 241114
+    },
+    {
+      "category_code": 241115
+    },
+    {
+      "category_code": 241116
+    },
+    {
+      "category_code": 241117
+    },
+    {
+      "category_code": 241210
+    },
+    {
+      "category_code": 241211
+    },
+    {
+      "category_code": 241212
+    },
+    {
+      "category_code": 241213
+    },
+    {
+      "category_code": 241214
+    },
+    {
+      "category_code": 241215
+    },
+    {
+      "category_code": 241216
+    },
+    {
+      "category_code": 241310
+    },
+    {
+      "category_code": 241311
+    },
+    {
+      "category_code": 241312
+    },
+    {
+      "category_code": 241314
+    },
+    {
+      "category_code": 241315
+    },
+    {
+      "category_code": 241410
+    },
+    {
+      "category_code": 241411
+    },
+    {
+      "category_code": 241412
+    },
+    {
+      "category_code": 241414
+    },
+    {
+      "category_code": 241415
+    },
+    {
+      "category_code": 241510
+    },
+    {
+      "category_code": 241511
+    },
+    {
+      "category_code": 241513
+    },
+    {
+      "category_code": 241514
+    },
+    {
+      "category_code": 241515
+    },
+    {
+      "category_code": 241610
+    },
+    {
+      "category_code": 241612
+    },
+    {
+      "category_code": 241613
+    },
+    {
+      "category_code": 241710
+    },
+    {
+      "category_code": 261010
+    },
+    {
+      "category_code": 261110
+    },
+    {
+      "category_code": 261111
+    },
+    {
+      "category_code": 261112
+    },
+    {
+      "category_code": 261113
+    },
+    {
+      "category_code": 261115
+    },
+    {
+      "category_code": 261116
+    },
+    {
+      "category_code": 261117
+    },
+    {
+      "category_code": 261118
+    },
+    {
+      "category_code": 261310
+    },
+    {
+      "category_code": 261311
+    },
+    {
+      "category_code": 261312
+    },
+    {
+      "category_code": 261313
+    },
+    {
+      "category_code": 261314
+    },
+    {
+      "category_code": 261316
+    },
+    {
+      "category_code": 261317
+    },
+    {
+      "category_code": 261318
+    },
+    {
+      "category_code": 261319
+    },
+    {
+      "category_code": 261320
+    },
+    {
+      "category_code": 261321
+    },
+    {
+      "category_code": 261322
+    },
+    {
+      "category_code": 261323
+    },
+    {
+      "category_code": 321010
+    },
+    {
+      "category_code": 321011
+    },
+    {
+      "category_code": 321030
+    },
+    {
+      "category_code": 321032
+    },
+    {
+      "category_code": 321033
+    },
+    {
+      "category_code": 321110
+    },
+    {
+      "category_code": 321112
+    },
+    {
+      "category_code": 321210
+    },
+    {
+      "category_code": 321211
+    },
+    {
+      "category_code": 321212
+    },
+    {
+      "category_code": 321213
+    },
+    {
+      "category_code": 321214
+    },
+    {
+      "category_code": 321310
+    },
+    {
+      "category_code": 321311
+    },
+    {
+      "category_code": 321312
+    },
+    {
+      "category_code": 321314
+    },
+    {
+      "category_code": 321315
+    },
+    {
+      "category_code": 321410
+    },
+    {
+      "category_code": 321411
+    },
+    {
+      "category_code": 321413
+    },
+    {
+      "category_code": 321414
+    },
+    {
+      "category_code": 321415
+    },
+    {
+      "category_code": 321416
+    },
+    {
+      "category_code": 321510
+    },
+    {
+      "category_code": 321511
+    },
+    {
+      "category_code": 321513
+    },
+    {
+      "category_code": 321514
+    },
+    {
+      "category_code": 321515
+    },
+    {
+      "category_code": 321516
+    },
+    {
+      "category_code": 321610
+    },
+    {
+      "category_code": 321611
+    },
+    {
+      "category_code": 321612
+    },
+    {
+      "category_code": 321613
+    },
+    {
+      "category_code": 321615
+    },
+    {
+      "category_code": 321616
+    },
+    {
+      "category_code": 321617
+    },
+    {
+      "category_code": 321619
+    },
+    {
+      "category_code": 321710
+    },
+    {
+      "category_code": 321711
+    },
+    {
+      "category_code": 321714
+    },
+    {
+      "category_code": 321810
+    },
+    {
+      "category_code": 321811
+    },
+    {
+      "category_code": 321812
+    },
+    {
+      "category_code": 321814
+    },
+    {
+      "category_code": 321815
+    },
+    {
+      "category_code": 321816
+    },
+    {
+      "category_code": 321817
+    },
+    {
+      "category_code": 341010
+    },
+    {
+      "category_code": 341110
+    },
+    {
+      "category_code": 341210
+    },
+    {
+      "category_code": 341310
+    },
+    {
+      "category_code": 341410
+    },
+    {
+      "category_code": 341411
+    },
+    {
+      "category_code": 341412
+    },
+    {
+      "category_code": 341510
+    },
+    {
+      "category_code": 361010
+    },
+    {
+      "category_code": 361110
+    },
+    {
+      "category_code": 361111
+    },
+    {
+      "category_code": 361112
+    },
+    {
+      "category_code": 361114
+    },
+    {
+      "category_code": 361115
+    },
+    {
+      "category_code": 361116
+    },
+    {
+      "category_code": 361117
+    },
+    {
+      "category_code": 361118
+    },
+    {
+      "category_code": 361119
+    },
+    {
+      "category_code": 361120
+    },
+    {
+      "category_code": 361121
+    },
+    {
+      "category_code": 361122
+    },
+    {
+      "category_code": 361123
+    },
+    {
+      "category_code": 361130
+    },
+    {
+      "category_code": 361140
+    },
+    {
+      "category_code": 361141
+    },
+    {
+      "category_code": 361210
+    },
+    {
+      "category_code": 361310
+    },
+    {
+      "category_code": 361311
+    },
+    {
+      "category_code": 361312
+    },
+    {
+      "category_code": 361410
+    },
+    {
+      "category_code": 361412
+    },
+    {
+      "category_code": 361413
+    },
+    {
+      "category_code": 361510
+    },
+    {
+      "category_code": 361511
+    },
+    {
+      "category_code": 361512
+    },
+    {
+      "category_code": 421010
+    },
+    {
+      "category_code": 421110
+    },
+    {
+      "category_code": 421111
+    },
+    {
+      "category_code": 421112
+    },
+    {
+      "category_code": 421113
+    },
+    {
+      "category_code": 421210
+    },
+    {
+      "category_code": 421211
+    },
+    {
+      "category_code": 421212
+    },
+    {
+      "category_code": 421214
+    },
+    {
+      "category_code": 421215
+    },
+    {
+      "category_code": 421216
+    },
+    {
+      "category_code": 421217
+    },
+    {
+      "category_code": 421310
+    },
+    {
+      "category_code": 421410
+    },
+    {
+      "category_code": 421411
+    },
+    {
+      "category_code": 421412
+    },
+    {
+      "category_code": 421510
+    },
+    {
+      "category_code": 421511
+    },
+    {
+      "category_code": 421512
+    },
+    {
+      "category_code": 421513
+    },
+    {
+      "category_code": 421610
+    },
+    {
+      "category_code": 441010
+    },
+    {
+      "category_code": 441019
+    },
+    {
+      "category_code": 441110
+    },
+    {
+      "category_code": 441210
+    },
+    {
+      "category_code": 441310
+    },
+    {
+      "category_code": 441311
+    },
+    {
+      "category_code": 441312
+    },
+    {
+      "category_code": 441313
+    },
+    {
+      "category_code": 441314
+    },
+    {
+      "category_code": 441315
+    },
+    {
+      "category_code": 441317
+    },
+    {
+      "category_code": 441318
+    },
+    {
+      "category_code": 441319
+    },
+    {
+      "category_code": 441320
+    },
+    {
+      "category_code": 441321
+    },
+    {
+      "category_code": 441322
+    },
+    {
+      "category_code": 441323
+    },
+    {
+      "category_code": 441324
+    },
+    {
+      "category_code": 441325
+    },
+    {
+      "category_code": 441327
+    },
+    {
+      "category_code": 441328
+    },
+    {
+      "category_code": 441329
+    },
+    {
+      "category_code": 441410
+    },
+    {
+      "category_code": 441510
+    },
+    {
+      "category_code": 441610
+    },
+    {
+      "category_code": 441710
+    },
+    {
+      "category_code": 461010
+    },
+    {
+      "category_code": 461027
+    },
+    {
+      "category_code": 461028
+    },
+    {
+      "category_code": 461110
+    },
+    {
+      "category_code": 461210
+    },
+    {
+      "category_code": 461211
+    },
+    {
+      "category_code": 461212
+    },
+    {
+      "category_code": 461214
+    },
+    {
+      "category_code": 461220
+    },
+    {
+      "category_code": 461310
+    },
+    {
+      "category_code": 461311
+    },
+    {
+      "category_code": 461312
+    },
+    {
+      "category_code": 461321
+    },
+    {
+      "category_code": 461410
+    },
+    {
+      "category_code": 521010
+    },
+    {
+      "category_code": 521110
+    },
+    {
+      "category_code": 521111
+    },
+    {
+      "category_code": 521112
+    },
+    {
+      "category_code": 521210
+    },
+    {
+      "category_code": 521310
+    },
+    {
+      "category_code": 521312
+    },
+    {
+      "category_code": 521410
+    },
+    {
+      "category_code": 521411
+    },
+    {
+      "category_code": 521412
+    },
+    {
+      "category_code": 521510
+    },
+    {
+      "category_code": 521610
+    },
+    {
+      "category_code": 521611
+    },
+    {
+      "category_code": 521612
+    },
+    {
+      "category_code": 521613
+    },
+    {
+      "category_code": 521614
+    },
+    {
+      "category_code": 541010
+    },
+    {
+      "category_code": 541011
+    },
+    {
+      "category_code": 541110
+    },
+    {
+      "category_code": 541111
+    },
+    {
+      "category_code": 541112
+    },
+    {
+      "category_code": 541113
+    },
+    {
+      "category_code": 541114
+    },
+    {
+      "category_code": 541116
+    },
+    {
+      "category_code": 541117
+    },
+    {
+      "category_code": 541118
+    },
+    {
+      "category_code": 541119
+    },
+    {
+      "category_code": 541120
+    },
+    {
+      "category_code": 541121
+    },
+    {
+      "category_code": 541122
+    },
+    {
+      "category_code": 541123
+    },
+    {
+      "category_code": 541124
+    },
+    {
+      "category_code": 541210
+    },
+    {
+      "category_code": 541310
+    },
+    {
+      "category_code": 541410
+    },
+    {
+      "category_code": 541411
+    },
+    {
+      "category_code": 541412
+    },
+    {
+      "category_code": 541413
+    },
+    {
+      "category_code": 541414
+    },
+    {
+      "category_code": 541416
+    },
+    {
+      "category_code": 541417
+    },
+    {
+      "category_code": 541418
+    },
+    {
+      "category_code": 541419
+    },
+    {
+      "category_code": 541420
+    },
+    {
+      "category_code": 541421
+    },
+    {
+      "category_code": 541510
+    },
+    {
+      "category_code": 561010
+    },
+    {
+      "category_code": 561110
+    },
+    {
+      "category_code": 561111
+    },
+    {
+      "category_code": 561210
+    },
+    {
+      "category_code": 561211
+    },
+    {
+      "category_code": 561212
+    },
+    {
+      "category_code": 561213
+    },
+    {
+      "category_code": 561214
+    },
+    {
+      "category_code": 561215
+    },
+    {
+      "category_code": 561310
+    },
+    {
+      "category_code": 561410
+    },
+    {
+      "category_code": 561411
+    },
+    {
+      "category_code": 561412
+    },
+    {
+      "category_code": 561413
+    },
+    {
+      "category_code": 561414
+    },
+    {
+      "category_code": 561415
+    },
+    {
+      "category_code": 561416
+    },
+    {
+      "category_code": 561510
+    },
+    {
+      "category_code": 561511
+    },
+    {
+      "category_code": 561512
+    },
+    {
+      "category_code": 561513
+    },
+    {
+      "category_code": 561514
+    },
+    {
+      "category_code": 561515
+    },
+    {
+      "category_code": 561516
+    },
+    {
+      "category_code": 561517
+    },
+    {
+      "category_code": 561518
+    },
+    {
+      "category_code": 561610
+    },
+    {
+      "category_code": 561612
+    },
+    {
+      "category_code": 561613
+    },
+    {
+      "category_code": 561614
+    },
+    {
+      "category_code": 561615
+    },
+    {
+      "category_code": 561616
+    },
+    {
+      "category_code": 561617
+    },
+    {
+      "category_code": 561622
+    },
+    {
+      "category_code": 621010
+    },
+    {
+      "category_code": 621011
+    },
+    {
+      "category_code": 621110
+    },
+    {
+      "category_code": 621210
+    },
+    {
+      "category_code": 621211
+    },
+    {
+      "category_code": 621213
+    },
+    {
+      "category_code": 621310
+    },
+    {
+      "category_code": 621311
+    },
+    {
+      "category_code": 621312
+    },
+    {
+      "category_code": 621313
+    },
+    {
+      "category_code": 621314
+    },
+    {
+      "category_code": 621315
+    },
+    {
+      "category_code": 621317
+    },
+    {
+      "category_code": 621318
+    },
+    {
+      "category_code": 621319
+    },
+    {
+      "category_code": 621321
+    },
+    {
+      "category_code": 621322
+    },
+    {
+      "category_code": 621361
+    },
+    {
+      "category_code": 621410
+    },
+    {
+      "category_code": 621412
+    },
+    {
+      "category_code": 621413
+    },
+    {
+      "category_code": 621414
+    },
+    {
+      "category_code": 621415
+    },
+    {
+      "category_code": 621416
+    },
+    {
+      "category_code": 621510
+    },
+    {
+      "category_code": 621511
+    },
+    {
+      "category_code": 621610
+    },
+    {
+      "category_code": 621810
+    },
+    {
+      "category_code": 623010
+    },
+    {
+      "category_code": 623011
+    },
+    {
+      "category_code": 623015
+    },
+    {
+      "category_code": 641010
+    },
+    {
+      "category_code": 641110
+    },
+    {
+      "category_code": 641111
+    },
+    {
+      "category_code": 641112
+    },
+    {
+      "category_code": 641113
+    },
+    {
+      "category_code": 641114
+    },
+    {
+      "category_code": 641121
+    },
+    {
+      "category_code": 641210
+    },
+    {
+      "category_code": 641211
+    },
+    {
+      "category_code": 641213
+    },
+    {
+      "category_code": 641214
+    },
+    {
+      "category_code": 641310
+    },
+    {
+      "category_code": 641312
+    },
+    {
+      "category_code": 641313
+    },
+    {
+      "category_code": 641314
+    },
+    {
+      "category_code": 641410
+    },
+    {
+      "category_code": 641510
+    },
+    {
+      "category_code": 641521
+    },
+    {
+      "category_code": 641610
+    },
+    {
+      "category_code": 661010
+    },
+    {
+      "category_code": 661036
+    },
+    {
+      "category_code": 661110
+    },
+    {
+      "category_code": 661210
+    },
+    {
+      "category_code": 661310
+    },
+    {
+      "category_code": 661311
+    },
+    {
+      "category_code": 661312
+    },
+    {
+      "category_code": 661313
+    },
+    {
+      "category_code": 661314
+    },
+    {
+      "category_code": 661315
+    },
+    {
+      "category_code": 661316
+    },
+    {
+      "category_code": 661410
+    },
+    {
+      "category_code": 661411
+    },
+    {
+      "category_code": 661413
+    },
+    {
+      "category_code": 661414
+    },
+    {
+      "category_code": 661415
+    },
+    {
+      "category_code": 661417
+    },
+    {
+      "category_code": 661418
+    },
+    {
+      "category_code": 661510
+    },
+    {
+      "category_code": 661511
+    },
+    {
+      "category_code": 661610
+    },
+    {
+      "category_code": 821010
+    },
+    {
+      "category_code": 821110
+    },
+    {
+      "category_code": 821111
+    },
+    {
+      "category_code": 821112
+    },
+    {
+      "category_code": 821210
+    },
+    {
+      "category_code": 821310
+    },
+    {
+      "category_code": 821410
+    },
+    {
+      "category_code": 821510
+    },
+    {
+      "category_code": 841010
+    },
+    {
+      "category_code": 881010
+    }
+  ]
+}
