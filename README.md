@@ -14,7 +14,7 @@ dependencies {
 # RCS
 ## BroadcastReceiver
 
-```
+```kotlin
 class RCSCatcher() : BroadcastReceiver() {
     override fun onReceive(context: Context?, intent: Intent?) {
         try {
@@ -54,7 +54,7 @@ class RCSCatcher() : BroadcastReceiver() {
 ```
 
 ## AndroidManifest.xml
-```
+```kotlin
   <receiver
       android:name=".syrup.parser.one.RCSCatcher"
       android:enabled="true"
