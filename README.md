@@ -12,7 +12,7 @@ dependencies {
 ```
 
 # RCS
-## BradcastReceiver
+## BroadcastReceiver
 
 ```
 class RCSCatcher() : BroadcastReceiver() {
